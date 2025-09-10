@@ -2,34 +2,34 @@ package de.afp.db_kino.model;
 
 public class Genre {
     private Long genreId;
-    private String genre;
+    private String genreName;
 
     public Genre() {}
 
-    public Genre(String genre){
-        this.genre = genre;
+    public Genre(String genreName){
+        this.genreName = genreName;
     }
 
-    public Genre(Long genreId, String genre) {
+    public Genre(Long genreId, String genreName) {
         this.genreId = genreId;
-        this.genre = genre;
+        this.genreName = genreName;
     }
 
     public Long getGenreId() {
         return this.genreId;
     }
 
-    public String getGenre() {
-        return this.genre;
+    public String getGenreName() {
+        return this.genreName;
     }
 
-    public void setGenre(String genre) {
-        this.genre = genre;
+    public void setGenreName(String genre) {
+        this.genreName = genreName;
     }
     
     @Override
     public String toString() {
-        return "GenreId: " + this.getGenreId() + " Genre: " + this.getGenre();
+        return "GenreId: " + this.getGenreId() + " Genre: " + this.getGenreName();
     }
     
 }
