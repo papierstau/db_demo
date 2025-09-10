@@ -27,4 +27,9 @@ public class Genre {
         this.genre = genre;
     }
     
+    @Override
+    public String toString() {
+        return "GenreId: " + this.getGenreId() + " Genre: " + this.getGenre();
+    }
+    
 }
