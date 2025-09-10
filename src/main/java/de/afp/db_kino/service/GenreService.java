@@ -26,13 +26,13 @@ public class GenreService {
                             Genre genre = new Genre(resultSet.getLong("genre_id"), resultSet.getString("genre"));
                         }
 
-                    }catch (Exception e) {
+                    } catch (Exception e) {
                         System.err.println(e);
-                     }finally {
+                     } finally {
                         dbConfig.closeDatabaseConnection();
                      }
-        return genre;
-    }
+        }catch(Error e){}
+                    return genre;
+                }
+
 }
-
-
