@@ -10,7 +10,6 @@ public class Film {
     private String inhalt;
     private LocalDate erscheinungsdatum;
 
-    
     public Film() {
     }
 
