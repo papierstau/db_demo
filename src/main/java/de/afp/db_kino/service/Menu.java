@@ -22,6 +22,8 @@ public class Menu {
                 case 1:
                     exit = FilmMenu.film(scanner);
                     break;
+                case 2:
+                    GenreMenue.genre(scanner);
                 case 3:
                     RaumMenu.raumMenu(scanner);
                 case -1:
