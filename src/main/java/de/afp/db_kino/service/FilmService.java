@@ -8,8 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import org.springframework.util.ObjectUtils;
-
 import de.afp.db_kino.config.DBConfig;
 import de.afp.db_kino.model.Film;
 

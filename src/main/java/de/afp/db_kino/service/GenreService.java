@@ -1,16 +1,13 @@
 package de.afp.db_kino.service;
 
-import java.lang.foreign.Linker.Option;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 import de.afp.db_kino.config.DBConfig;
-import de.afp.db_kino.model.Film;
 import de.afp.db_kino.model.Genre;
 
 public class GenreService {
@@ -133,4 +130,3 @@ public class GenreService {
         return "Löschen nicht möglich";
     }
 }
-

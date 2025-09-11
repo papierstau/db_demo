@@ -1,6 +1,5 @@
 package de.afp.db_kino.service;
 
-import java.sql.SQLClientInfoException;
 import java.sql.SQLException;
 import java.util.Scanner;
 
@@ -31,7 +30,7 @@ public class GenreMenue {
                 System.out.println(GENRESERVICE.getGenreById(l));
                 Menu.menu();
                 break;
-            
+
             case "3":
                 Genre genre = new Genre();
                 System.out.println("Bitte das Genre angeben");
@@ -49,8 +48,9 @@ public class GenreMenue {
                 }
                 Menu.menu();
                 break;
-                
-    }
 
-    return false;
-}}
+        }
+
+        return false;
+    }
+}

@@ -4,9 +4,10 @@ public class Genre {
     private Long genreId;
     private String genreName;
 
-    public Genre() {}
+    public Genre() {
+    }
 
-    public Genre(String genreName){
+    public Genre(String genreName) {
         this.genreName = genreName;
     }
 
@@ -24,12 +25,12 @@ public class Genre {
     }
 
     public void setGenreName(String genre) {
-        this.genreName = genreName;
+        this.genreName = genre;
     }
-    
+
     @Override
     public String toString() {
         return "GenreId: " + this.getGenreId() + " Genre: " + this.getGenreName();
     }
-    
+
 }
