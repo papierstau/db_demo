@@ -24,7 +24,8 @@ public class GenreService {
                         """)) {
                 ResultSet resultSet = statement.executeQuery();
                 while (resultSet.next()) {
-                    Genre genre = new Genre(resultSet.getLong("genre_id"), resultSet.getString("genre"));
+                    Genre gen = new Genre(resultSet.getLong("genre_id"), resultSet.getString("genre"));
+                    genre.add(gen);
                 }
 
             } catch (Exception e) {
