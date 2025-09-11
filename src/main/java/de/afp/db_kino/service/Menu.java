@@ -11,7 +11,7 @@ public class Menu {
         while (!exit) {
             System.out.println("Bitte option wählen");
             System.out.println("""
-                     1: Film,
+                     1: Film
                      2: Genre
                      3: Raum
                     -1: EXIT
